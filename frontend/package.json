@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --openssl-legacy-provider",
-    "build": "vite --openssl-legacy-provider build",
+    "dev": "vite ",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
