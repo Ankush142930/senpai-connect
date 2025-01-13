@@ -4,14 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite ",
-    "build": "vite build",
+    "dev": "vite --openssl-legacy-provider",
+    "build": "vite --openssl-legacy-provider build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.0.0",
     "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "axios": "^1.7.9",
     "framer-motion": "^11.17.0",
     "react": "^18.3.1",
